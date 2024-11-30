@@ -8,7 +8,7 @@ class MainPizzaOrder extends StatelessWidget {
   Widget build(BuildContext context) {
     return Theme(
       data: ThemeData.light(),
-      child: PizzaOrderDetails(),
+      child: const PizzaOrderDetails(),
     );
   }
 }
